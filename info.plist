@@ -102,7 +102,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>pass</string>
+	<string>利用openAI api 实现中文翻译为英文变量 | Utilize openAI api to implement Chinese translation into English variables.</string>
 	<key>uidata</key>
 	<dict>
 		<key>14DE0D67-7EB9-48AB-B163-5C173B39D293</key>
@@ -237,9 +237,11 @@
 			<string>format_list</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>0.0.1</string>
+	<string>0.1</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/XuanBoWu/GPT-Based-CodeVar</string>
 </dict>
 </plist>
