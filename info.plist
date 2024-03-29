@@ -102,7 +102,8 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>利用openAI api 实现中文翻译为英文变量 | Utilize openAI api to implement Chinese translation into English variables.</string>
+	<string>利用openAI api 实现中文翻译为英文变量
+Utilize openAI api to implement Chinese translation into English variables.</string>
 	<key>uidata</key>
 	<dict>
 		<key>14DE0D67-7EB9-48AB-B163-5C173B39D293</key>
@@ -122,6 +123,27 @@
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>/usr/local/bin/python3</string>
+				<key>placeholder</key>
+				<string>/usr/local/bin/python3</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>python3 路径配置 如果无法运行可以尝试修改默认路径</string>
+			<key>label</key>
+			<string>Python path</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>python_path</string>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -228,19 +250,55 @@
 				<string>蛇形式</string>
 			</dict>
 			<key>description</key>
-			<string>变量格式</string>
+			<string>示例：snake_case</string>
 			<key>label</key>
-			<string>格式</string>
+			<string>输出格式（多选）</string>
 			<key>type</key>
 			<string>checkbox</string>
 			<key>variable</key>
-			<string>format_list</string>
+			<string>snake_case</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>大驼峰式</string>
+			</dict>
+			<key>description</key>
+			<string>示例：UpperCamelCase</string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>upper_camel_case</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>大驼峰式</string>
+			</dict>
+			<key>description</key>
+			<string>示例：camelCase</string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>camel_case</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>0.1</string>
+	<string>0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/XuanBoWu/GPT-Based-CodeVar</string>
 </dict>
